@@ -14,15 +14,15 @@ public final class R {
 		public static final int jpush_richpush_progressbar = 0x7f020061;
 	}
 	public static final class id {
-		public static final int actionbarLayoutId = 0x7f0d0098;
-		public static final int fullWebView = 0x7f0d009e;
-		public static final int imgRichpushBtnBack = 0x7f0d009a;
-		public static final int imgView = 0x7f0d009b;
-		public static final int popLayoutId = 0x7f0d0096;
-		public static final int pushPrograssBar = 0x7f0d009d;
-		public static final int rlRichpushTitleBar = 0x7f0d0099;
-		public static final int tvRichpushTitle = 0x7f0d009c;
-		public static final int wvPopwin = 0x7f0d0097;
+		public static final int actionbarLayoutId = 0x7f0d0099;
+		public static final int fullWebView = 0x7f0d009f;
+		public static final int imgRichpushBtnBack = 0x7f0d009b;
+		public static final int imgView = 0x7f0d009c;
+		public static final int popLayoutId = 0x7f0d0097;
+		public static final int pushPrograssBar = 0x7f0d009e;
+		public static final int rlRichpushTitleBar = 0x7f0d009a;
+		public static final int tvRichpushTitle = 0x7f0d009d;
+		public static final int wvPopwin = 0x7f0d0098;
 	}
 	public static final class layout {
 		public static final int jpush_popwin_layout = 0x7f04002e;

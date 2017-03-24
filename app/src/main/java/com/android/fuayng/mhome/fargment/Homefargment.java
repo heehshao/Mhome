@@ -2,6 +2,7 @@ package com.android.fuayng.mhome.fargment;
 
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,11 +19,17 @@ import com.android.fuayng.mhome.R;
 import com.android.fuayng.mhome.activity.HomedetailsActivity;
 import com.android.fuayng.mhome.adapter.HomeListAdapter;
 import com.android.fuayng.mhome.base.BaseFragment;
+import com.android.fuayng.mhome.bean.DataBean;
 import com.android.fuayng.mhome.bean.LieBiaoBean;
 import com.android.fuayng.mhome.utils.NetworkImageHolderView;
 import com.bigkoo.convenientbanner.ConvenientBanner;
 import com.bigkoo.convenientbanner.holder.CBViewHolderCreator;
 import com.bigkoo.convenientbanner.listener.OnItemClickListener;
+import com.google.gson.Gson;
+import com.lzy.okgo.OkGo;
+import com.lzy.okgo.cache.CacheMode;
+import com.lzy.okgo.callback.AbsCallback;
+import com.lzy.okgo.callback.StringCallback;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -32,6 +39,8 @@ import java.util.Map;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import okhttp3.Call;
+import okhttp3.Response;
 
 /**
  * 作者：SYC on 2017/3/24 09:40
@@ -108,9 +117,7 @@ public class Homefargment extends BaseFragment implements OnItemClickListener, V
 
     @Override
     protected void initView() {
-        xinTv.setFocusable(true);
-        xinTv.setFocusableInTouchMode(true);
-        xinTv.requestFocus();
+
         liebiapAdapter = new HomeListAdapter(getActivity(), mList);
         liebiaoLv.setAdapter(liebiapAdapter);
         liebiaoLv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -119,6 +126,24 @@ public class Homefargment extends BaseFragment implements OnItemClickListener, V
                     openActivity(HomedetailsActivity.class);
             }
         });
+        OkGo.get("http://rap.taobao.org/mockjsdata/15835/mis/user/{user key}/category/main")
+            .tag(getActivity())
+                .cacheMode(CacheMode.DEFAULT)
+                .execute(new AbsCallback<DataBean>() {
+                    @Override
+                    public DataBean convertSuccess(Response response) throws Exception {
+                        return new  Gson().fromJson(response.body().string(), DataBean.class);
+                    }
+
+                    @Override
+                    public void onSuccess(DataBean dataBean, Call call, Response response) {
+                            if(dataBean.getStatus().equals("status")){
+
+                            }
+                    }
+                });
+
+
     }
 
     @Override
@@ -180,6 +205,9 @@ public class Homefargment extends BaseFragment implements OnItemClickListener, V
         super.onResume();
         //开始自动翻页
         convenientBanner.startTurning(2000);
+        xinTv.setFocusable(true);
+        xinTv.setFocusableInTouchMode(true);
+        xinTv.requestFocus();
     }
 
     @Override

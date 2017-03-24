@@ -4,6 +4,10 @@
         "source": "E:\\workspeace\\Mhome\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_shortlist_unselected.png"
     },
     {
+        "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\icon_saves.png",
+        "source": "E:\\workspeace\\Mhome\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_saves.png"
+    },
+    {
         "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\icon_list_img.png",
         "source": "E:\\workspeace\\Mhome\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_list_img.png"
     },
@@ -22,6 +26,10 @@
     {
         "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\icon_upload.png",
         "source": "E:\\workspeace\\Mhome\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_upload.png"
+    },
+    {
+        "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\icon_user_bg.png",
+        "source": "E:\\workspeace\\Mhome\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_user_bg.png"
     },
     {
         "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\icon_order.png",
@@ -50,5 +58,13 @@
     {
         "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "E:\\workspeace\\Mhome\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\icon_share.png",
+        "source": "E:\\workspeace\\Mhome\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_share.png"
+    },
+    {
+        "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\icon_map.png",
+        "source": "E:\\workspeace\\Mhome\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_map.png"
     }
 ]

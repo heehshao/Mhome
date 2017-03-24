@@ -32,16 +32,16 @@
         "source": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_snackbar_include.xml"
+        "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
         "source": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_action.xml"
     },
     {
-        "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
         "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
@@ -122,6 +122,10 @@
     {
         "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_fragment.xml",
         "source": "E:\\workspeace\\Mhome\\app\\src\\main\\res\\layout\\home_fragment.xml"
+    },
+    {
+        "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shortlis_farment.xml",
+        "source": "E:\\workspeace\\Mhome\\app\\src\\main\\res\\layout\\shortlis_farment.xml"
     },
     {
         "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
@@ -206,6 +210,10 @@
     {
         "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\profile_fragment.xml",
+        "source": "E:\\workspeace\\Mhome\\app\\src\\main\\res\\layout\\profile_fragment.xml"
     },
     {
         "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",

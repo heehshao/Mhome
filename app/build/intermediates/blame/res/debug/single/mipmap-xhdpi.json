@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\icon_head_defaul.png",
+        "source": "E:\\workspeace\\Mhome\\app\\src\\main\\res\\mipmap-xhdpi\\icon_head_defaul.png"
+    },
+    {
         "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
         "source": "E:\\workspeace\\Mhome\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     }

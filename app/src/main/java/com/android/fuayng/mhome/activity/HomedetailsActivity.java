@@ -7,15 +7,19 @@ import android.support.v4.app.Fragment;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
+import android.widget.AdapterView;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import com.ToxicBakery.viewpager.transforms.ABaseTransformer;
 import com.ToxicBakery.viewpager.transforms.StackTransformer;
 import com.android.fuayng.mhome.R;
+import com.android.fuayng.mhome.adapter.HomeListAdapter;
 import com.android.fuayng.mhome.base.BaseActivity;
+import com.android.fuayng.mhome.bean.LieBiaoBean;
 import com.android.fuayng.mhome.utils.NetworkImageHolderView;
 import com.bigkoo.convenientbanner.ConvenientBanner;
 import com.bigkoo.convenientbanner.holder.CBViewHolderCreator;
@@ -65,6 +69,13 @@ public class HomedetailsActivity extends BaseActivity implements OnItemClickList
             "http://www.fortune-sun.com/upload/201608/1471498245.jpg",
     };
     private ArrayList<String> transformerList = new ArrayList<String>();
+
+    @BindView(R.id.liebiao_lv)
+    ListView liebiaoLv;
+    private List<LieBiaoBean> mList = new ArrayList<>();
+    private LieBiaoBean lieBiaoBean;
+    private HomeListAdapter liebiapAdapter;
+
     @Override
     protected void initSetView(Bundle savedInstanceState) {
         setContentView(R.layout.acticity_homedetails);
@@ -102,6 +113,16 @@ public class HomedetailsActivity extends BaseActivity implements OnItemClickList
                 .setOnItemClickListener(this);
         //动画效果
         transformerList.add(StackTransformer.class.getSimpleName());
+
+        liebiapAdapter = new HomeListAdapter(this, mList);
+        liebiaoLv.setAdapter(liebiapAdapter);
+        liebiaoLv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                openActivity(HomedetailsActivity.class);
+            }
+        });
+
     }
 
 
@@ -117,7 +138,31 @@ public class HomedetailsActivity extends BaseActivity implements OnItemClickList
 
     @Override
     protected void initData() {
-
+        lieBiaoBean = new LieBiaoBean();
+        lieBiaoBean.setImgurl("http://www.shboloni.com/d/file/contents/2015/11/564e7ce07270e.jpg");
+        lieBiaoBean.setPrice("50万");
+        lieBiaoBean.setTitle("精装房屋");
+        mList.add(lieBiaoBean);
+        LieBiaoBean lieBiaoBean1 = new LieBiaoBean();
+        lieBiaoBean1.setImgurl("http://www.shboloni.com/d/file/contents/2015/11/564e7ce07270e.jpg");
+        lieBiaoBean1.setPrice("50万");
+        lieBiaoBean1.setTitle("精装房屋");
+        mList.add(lieBiaoBean1);
+        LieBiaoBean lieBiaoBean2 = new LieBiaoBean();
+        lieBiaoBean2.setImgurl("http://www.shboloni.com/d/file/contents/2015/11/564e7ce07270e.jpg");
+        lieBiaoBean2.setPrice("50万");
+        lieBiaoBean2.setTitle("精装房屋");
+        mList.add(lieBiaoBean2);
+        LieBiaoBean lieBiaoBean3 = new LieBiaoBean();
+        lieBiaoBean3.setImgurl("http://www.shboloni.com/d/file/contents/2015/11/564e7ce07270e.jpg");
+        lieBiaoBean3.setPrice("50万");
+        lieBiaoBean3.setTitle("精装房屋");
+        mList.add(lieBiaoBean3);
+        LieBiaoBean lieBiaoBean4 = new LieBiaoBean();
+        lieBiaoBean4.setImgurl("http://www.shboloni.com/d/file/contents/2015/11/564e7ce07270e.jpg");
+        lieBiaoBean4.setPrice("50万");
+        lieBiaoBean4.setTitle("精装房屋");
+        mList.add(lieBiaoBean4);
     }
 
     // 设置自动滑动的动画效果

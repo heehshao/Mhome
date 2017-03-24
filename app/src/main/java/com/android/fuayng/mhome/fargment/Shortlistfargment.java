@@ -12,7 +12,7 @@ import com.android.fuayng.mhome.base.BaseFragment;
 public class Shortlistfargment extends BaseFragment {
     @Override
     protected int initXML() {
-        return R.layout.home_fragment;
+        return R.layout.shortlis_farment;
     }
 
     @Override

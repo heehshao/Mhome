@@ -9,6 +9,8 @@ package com.android.fuayng.mhome;
 
 public final class Manifest {
     public static final class permission {
+        /**  Required 
+         */
         public static final String JPUSH_MESSAGE="com.android.fuyang.mdemo.permission.JPUSH_MESSAGE";
     }
 }

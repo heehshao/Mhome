@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_page_indicator_focused.png",
+        "source": "E:\\workspeace\\Mhome\\app\\src\\main\\res\\mipmap-hdpi\\ic_page_indicator_focused.png"
+    },
+    {
+        "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_page_indicator.png",
+        "source": "E:\\workspeace\\Mhome\\app\\src\\main\\res\\mipmap-hdpi\\ic_page_indicator.png"
+    },
+    {
+        "merged": "E:\\workspeace\\Mhome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "E:\\workspeace\\Mhome\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    }
+]
